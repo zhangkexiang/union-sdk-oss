@@ -1,0 +1,39 @@
+{
+    "name": "laravel-dev-common/union-sdk-oss",
+    "description": "Laravel dev sdk util oss",
+    "type":"util",
+    "keywords": ["oss","sdk", "util"],
+    "license": "MIT",
+    "homepage": "https://github.com/zhangkexiang/union-sdk-oss",
+    "authors": [
+        {
+            "name": "coding",
+            "email": "zhangkexiang@qingdao1024.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel-dev-common/union-config":"*",
+        "laravel-dev-common/union-sdk-alicore":"*"
+    },
+    "replace": {
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "files": [
+        ],
+        "psr-4": {
+            "Union\\Sdk\\Sts\\": "src/"
+        }
+    },
+    "suggest": {
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
+
