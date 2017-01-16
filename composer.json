@@ -13,8 +13,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "laravel-dev-common/union-config":"*",
-        "laravel-dev-common/union-sdk-alicore":"*"
+        "laravel-dev-common/union-config":"*"
     },
     "replace": {
     },
@@ -24,7 +23,7 @@
         "files": [
         ],
         "psr-4": {
-            "Union\\Sdk\\Sts\\": "src/"
+            "Union\\Sdk\\OSS\\": "src/"
         }
     },
     "suggest": {
